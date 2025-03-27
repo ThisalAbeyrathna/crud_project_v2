@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 8px;
+}
+input {
+    margin: 5px;
+    padding: 8px;
+    width: 40%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    padding: 8px 12px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #28a745;
+    color: white;
+}
+button#updateBtn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+button.delete {
+    background: #dc3545;
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+input[type="checkbox"] {
+    transform: scale(1.3);
+}
